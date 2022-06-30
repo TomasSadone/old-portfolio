@@ -14,7 +14,7 @@ export const MainPage = () => {
   };
   return (
     <StyledMainPage>
-      <Container className="container">
+      <Container className="container" >
         <div className="flex-max-width" id="text">
           <div>
             <p>Hello, my name is</p>
