@@ -2,6 +2,7 @@ import React from "react";
 import { StyledMainPage } from "./styles";
 import gitLogo from "../../img/github2.svg";
 import linkedinLogo from "../../img/linkedin 3.svg";
+import mainImage from "../../img/mainImage.svg"
 import { Container } from "../../styledComponents/Container";
 // const gitLogo = require('../../img/github2.svg') as string;
 
@@ -14,20 +15,19 @@ export const MainPage = () => {
   };
   return (
     <StyledMainPage>
-      <Container className="container" >
-        <div className="flex-max-width" id="text">
-          <div>
-            <p>Hello, my name is</p>
-            <div id="tomas-sadone">Tomas Sadone</div> <br />
-            <span>I&apos;m a Front-End Developer</span> <br />
-            I&apos;ve got knowledge in <span>React.js</span> , responsive CSS,
-            SASS,Typescript, version control, working with APIs, and others.
-          </div>
-          <div />
+      <Container className="container">
+        <div className="max-width" id="text">
+          Hello, my name is
+          <br />
+          <span id="tomas-sadone">Tomas Sadone</span> <br />
+          <span id="f-e-dev">I&apos;m a Front-End Developer</span> <br />
+          <span id="description">
+            I&apos;ve got knowledge in <span id="react">React.js</span> , responsive CSS,
+            SASS, Typescript, version control, working with APIs, and others.
+          </span>
         </div>
-        <div className="flex-max-width">
-          <div></div>
-          <div />
+        <div className="max-width" id="image">
+          <img src={mainImage}/>
         </div>
       </Container>
       <a

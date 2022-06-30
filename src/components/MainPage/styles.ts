@@ -1,42 +1,66 @@
 import styled from "styled-components";
 
 export const StyledMainPage = styled.div`
-  height: calc(100vh - 90px);
+  height: calc(100vh - 106px);
   position: relative;
 
-  /* utility */
-  .flex-max-width {
-      display:flex;
-      > * {
-          max-width: 70%;
-          border: solid 1px blue;
-        }
-    }
+  /* text section */
 
-    /* text section */
-    
-    .container :first-child {
-      font-size: 1.25rem;
-      line-height: 1.86rem;
-    }
-    
-    #text {
-      padding-top: 4.68rem;
-    }
+  .container :first-child {
+    font-size: 1.25rem;
+    /* line-height: 1.86rem; */
+  }
 
-    #tomas-sadone {
-        color: #0000FF;
-        font-size: 4.68rem;
-    }
+  #text {
+    padding-top: 1rem;
+  }
 
- /* vertical line and logos */
+  #tomas-sadone {
+    color: #0000ff;
+    font-size: 4.68rem;
+    font-weight: 600;
+
+    line-height: 4rem;
+
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 0px;
+  }
+
+  #f-e-dev {
+    font-size: 1.875rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  #description{
+    font-weight: 300;
+  }
+
+  #react {
+    color:#FF00FF;
+    font-weight: 400;
+  }
+
+  /* image */
+
+  #image {
+    margin-left: auto;
+    * {
+      aspect-ratio:16/9;
+      float: right;
+      width: 90%;
+    }
+  }
+
+  /* vertical line and logos */
 
   div.vertical-line {
     border-left: 1px solid #fff;
     height: 38vh;
     position: absolute;
-    bottom: -20px;
-    
+    bottom: -1.25rem;
+
     * {
       cursor: pointer;
     }
@@ -72,5 +96,31 @@ export const StyledMainPage = styled.div`
     transform-origin: 100% 0;
     position: absolute;
     /* line-height: 40px; same as height, for vertical centering */
+  }
+
+  /* @media */
+  @media (min-width: 47em) {
+    .max-width {
+      max-width: 70%;
+    }
+    #text {
+      padding-top: 3rem;
+    }
+    
+  }
+  @media (max-width: 35em) {
+    .container {
+      width:100%
+    } 
+    .vertical-line {
+      display: none;
+    }   
+    #mail {
+      display: none;
+    }
+    #image * {
+      float: none;
+      width: 100%;
+    }
   }
 `;

@@ -9,9 +9,11 @@ export const StyledNavbar = styled.nav`
     display: flex;
     justify-content: space-between;
     max-width: 85%;
+    width: 1280px;
+    padding-top: 1rem;
+
     margin: 0 auto;
   }
-
 
   .navigation {
     align-items: center;
@@ -74,8 +76,12 @@ export const StyledNavbar = styled.nav`
       padding-top: 7rem;
       gap: 4rem;
 
-      background: hsl(0 0% 40% / 0.1);
-      backdrop-filter: blur(1rem);
+      background: #1a1a1a;
+      @supports (backdrop-filter: blur()) {
+        background: hsl(0 0% 40% / 0);
+        backdrop-filter: blur(1rem);
+
+      }
       .styled-button {
         width: 60%;
       }
