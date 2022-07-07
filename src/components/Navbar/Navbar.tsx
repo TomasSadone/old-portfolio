@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
             <button>CONTACT</button>
             <StyledButton
               className="styled-button"
-              background="#1A1A1A"
+              background="1a1a1a"
               padding="0.875em"
             >
               RESUME

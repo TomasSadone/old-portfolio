@@ -79,8 +79,7 @@ export const StyledNavbar = styled.nav`
       background: #1a1a1a;
       @supports (backdrop-filter: blur()) {
         background: hsl(0 0% 40% / 0);
-        backdrop-filter: blur(1rem);
-
+        backdrop-filter: blur(2rem);
       }
       .styled-button {
         width: 60%;

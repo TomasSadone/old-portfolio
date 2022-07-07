@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMainPage = styled.div`
-  height: calc(100vh - 106px);
+  /* min-height: calc(100vh - 87px); */
   position: relative;
 
   /* text section */
@@ -12,7 +12,8 @@ export const StyledMainPage = styled.div`
   }
 
   #text {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
+    padding-bottom: 3rem;
   }
 
   #tomas-sadone {
@@ -33,12 +34,12 @@ export const StyledMainPage = styled.div`
     font-weight: 600;
   }
 
-  #description{
+  #description {
     font-weight: 300;
   }
 
   #react {
-    color:#FF00FF;
+    color: #ff00ff;
     font-weight: 400;
   }
 
@@ -47,8 +48,8 @@ export const StyledMainPage = styled.div`
   #image {
     margin-left: auto;
     * {
-      aspect-ratio:16/9;
-      float: right;
+      aspect-ratio: 16/9;
+      /* float: right; */
       width: 90%;
     }
   }
@@ -57,9 +58,9 @@ export const StyledMainPage = styled.div`
 
   div.vertical-line {
     border-left: 1px solid #fff;
-    height: 38vh;
+    height: 40%;
     position: absolute;
-    bottom: -1.25rem;
+    bottom: 2px;
 
     * {
       cursor: pointer;
@@ -99,27 +100,25 @@ export const StyledMainPage = styled.div`
   }
 
   /* @media */
-  @media (min-width: 47em) {
+  @media (min-width: 47rem) {
     .max-width {
       max-width: 70%;
     }
-    #text {
+    /* #text {
       padding-top: 3rem;
-    }
-    
+    } */
   }
   @media (max-width: 35em) {
     .container {
-      width:100%
-    } 
+      width: 100%;
+    }
     .vertical-line {
       display: none;
-    }   
+    }
     #mail {
       display: none;
     }
     #image * {
-      float: none;
       width: 100%;
     }
   }
