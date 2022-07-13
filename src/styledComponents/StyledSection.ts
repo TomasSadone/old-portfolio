@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledSection = styled.section`
   padding-top: 1rem;
   @media (min-width: 47em) {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   h1 {

@@ -5,8 +5,8 @@ export const StyledWork = styled.div`
     // si quisiera que crezca en tamaño mediano de tablet:
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

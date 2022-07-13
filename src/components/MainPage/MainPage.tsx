@@ -6,18 +6,13 @@ import mainImage from "../../img/cuate.svg";
 // import mainImage from "../../img/mainImage.svg";
 import { Container } from "../../styledComponents/Container";
 import { StyledSection } from "../../styledComponents/StyledSection";
+import { openLinks } from "../../helpers/openLink";
 // const gitLogo = require('../../img/github2.svg') as string;
 
 // type Props = {}
-type Links =
-  | "https://www.linkedin.com/in/tom%C3%A1s-sadone-235483181/"
-  | "https://github.com/TomasSadone";
 
 export const MainPage: React.FC = () => {
-  const handleSocialClick = (url: Links) => {
-    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-    if (newWindow) newWindow.opener = null;
-  };
+
   return (
     <StyledSection>
       <StyledMainPage>
@@ -48,14 +43,14 @@ export const MainPage: React.FC = () => {
         <div className="vertical-line">
           <img
             onClick={() =>
-              handleSocialClick(
+              openLinks(
                 "https://www.linkedin.com/in/tom%C3%A1s-sadone-235483181/"
               )
             }
             src={linkedinLogo}
           />
           <img
-            onClick={() => handleSocialClick("https://github.com/TomasSadone")}
+            onClick={() => openLinks("https://github.com/TomasSadone")}
             src={gitLogo}
           />
         </div>

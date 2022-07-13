@@ -1,3 +1,6 @@
+import  { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
 *,
 *::before,
 *::after {
@@ -15,6 +18,14 @@ html {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px
+}
+
+@media (max-width: 1280px) {
+  html {
+    /* font-size: 14px; */
+  }
 }
 
 /* .section {
@@ -30,3 +41,5 @@ html {
   le pongo el mismo className que ya tiene y listo.
   Tambien los section, con sus media
 */
+
+`

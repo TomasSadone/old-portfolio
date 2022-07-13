@@ -10,7 +10,7 @@ export const HamburguerMenu = styled.button<Props>`
   aspect-ratio: 1;
   background-color: transparent;
   border: none;
-  top: 2rem;
+  top: 1rem;
   right: 2rem;
   z-index: 9999;
 

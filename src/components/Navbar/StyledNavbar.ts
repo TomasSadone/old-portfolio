@@ -10,7 +10,7 @@ export const StyledNavbar = styled.nav`
     justify-content: space-between;
     max-width: 85%;
     width: 1280px;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
 
     margin: 0 auto;
   }
@@ -55,13 +55,20 @@ export const StyledNavbar = styled.nav`
             visibility: hidden;
             transition: all 0.25s ease-in-out;
           }
+          /* :focus::before */
           &:hover::before,
-          :focus::before {
+          &.active::before {
             visibility: visible;
             width: 100%;
           }
-          &:focus::before {
+          &.active::before {
             background-color: #ff00ff;
+          }
+          /* &:focus::before { */
+            /* background-color: #ff00ff; */
+          /* } */
+          &:focus-visible {
+            outline: 0;
           }
         }
       }
