@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/myPortfolio/static/js/main.bdd30969.js",
+    "static/media/mockupScandiweb.png": "/myPortfolio/static/media/mockupScandiweb.be6212b5aa5acc069747.png",
+    "static/media/mockupPortfolio.png": "/myPortfolio/static/media/mockupPortfolio.dd7a8faab78d0dc4a692.png",
+    "static/media/about-picture.png": "/myPortfolio/static/media/about-picture.d833e606c50e55f9403c.png",
+    "static/media/cuate.svg": "/myPortfolio/static/media/cuate.6c7ae3bb25c94a53b06a947dddc2a8f6.svg",
+    "static/media/react.svg": "/myPortfolio/static/media/react.ffc96227dcd79fdeaf7e7f087c862390.svg",
+    "static/media/github2.svg": "/myPortfolio/static/media/github2.de973711228b5413d073d19cdaae904f.svg",
+    "static/media/redux.svg": "/myPortfolio/static/media/redux.611e9cf22753bec36e8d098f75f88d8d.svg",
+    "static/media/linkedin 3.svg": "/myPortfolio/static/media/linkedin 3.9424e59ff468c69bc9b67059e418fb15.svg",
+    "static/media/js.svg": "/myPortfolio/static/media/js.24183423c1b620ac008d1328791324ba.svg",
+    "static/media/typescript.svg": "/myPortfolio/static/media/typescript.10f41006c1ff14948c0241eab8f1ab6a.svg",
+    "index.html": "/myPortfolio/index.html",
+    "static/media/css.svg": "/myPortfolio/static/media/css.94ea92c64e854797f4dd3dc02ad1c8c8.svg",
+    "static/media/html.svg": "/myPortfolio/static/media/html.8a673aba0875a3b1d36867bce11e3299.svg",
+    "main.bdd30969.js.map": "/myPortfolio/static/js/main.bdd30969.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bdd30969.js"
+  ]
+}
