@@ -86,6 +86,7 @@ export const StyledMainPage = styled.div`
   /* mail */
 
   #mail {
+    cursor: pointer;
     color: white;
     text-decoration: none;
     position: absolute;

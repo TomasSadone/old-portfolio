@@ -7,8 +7,7 @@ export const StyledCard = styled.div`
   display: grid;
   place-items: center;
 
-  > *,
-  > *:first-child > * {
+  > * {
     max-width: 85%;
     font-weight: 300;
   }

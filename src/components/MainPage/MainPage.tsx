@@ -1,18 +1,13 @@
 import React from "react";
-import { StyledMainPage } from "./styles";
+import { StyledMainPage } from "./StyledMainPage";
 import gitLogo from "../../img/github2.svg";
 import linkedinLogo from "../../img/linkedin 3.svg";
 import mainImage from "../../img/cuate.svg";
-// import mainImage from "../../img/mainImage.svg";
 import { Container } from "../../styledComponents/Container";
 import { StyledSection } from "../../styledComponents/StyledSection";
 import { openLinks } from "../../helpers/openLink";
-// const gitLogo = require('../../img/github2.svg') as string;
-
-// type Props = {}
 
 export const MainPage: React.FC = () => {
-
   return (
     <StyledSection>
       <StyledMainPage>
@@ -23,21 +18,16 @@ export const MainPage: React.FC = () => {
             <span id="tomas-sadone">Tomas Sadone</span> <br />
             <span id="f-e-dev">I&apos;m a Front-End Developer</span> <br />
             <span id="description">
-              I&apos;ve got knowledge in <span id="react">React.js</span> ,
-              responsive CSS, SASS, Typescript, version control, working with
-              APIs, and others.
+              I&apos;m specialized in building responsive SPA with
+              <span id="react"> React.js.</span> <br />
+              Scroll to let my portfolio guide you through my skills.
             </span>
           </div>
           <div className="max-width" id="image">
             <img src={mainImage} />
           </div>
         </Container>
-        <a
-          href="mailto:tomisadone27@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          id="mail"
-        >
+        <a onClick={() => openLinks("mailto:tomisadone27@gmail.com")} id="mail">
           tomisadone27@gmail.com
         </a>
         <div className="vertical-line">

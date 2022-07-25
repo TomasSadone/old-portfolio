@@ -5,13 +5,15 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Work } from "./components/Work/Work";
 import { Container } from "./styledComponents/Container";
 import { GlobalStyle } from "./styledComponents/GlobalStyle";
+import { Contact } from "./components/Contact/Contact";
 
 // type Props = {any}
 
 export const App: React.FC = () => {
   const workPageRef = useRef<HTMLDivElement>(null);
   const aboutPageRef = useRef<HTMLDivElement>(null);
-  const refs = [workPageRef, aboutPageRef];
+  const contactPageRef = useRef<HTMLDivElement>(null);
+  const refs = [workPageRef, aboutPageRef, contactPageRef];
   // const navbarRef = useRef<HTMLDivElement>(null);
 
   return (
@@ -25,6 +27,9 @@ export const App: React.FC = () => {
         </div>
         <div className="scroll" id="about" ref={aboutPageRef}>
           <About />
+        </div>
+        <div className="scroll" id="contact" ref={contactPageRef}>
+          <Contact />
         </div>
       </Container>
     </>

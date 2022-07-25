@@ -34,6 +34,7 @@ export const StyledNavbar = styled.nav`
 
   h3 {
     font-size: 1.25rem;
+    cursor: pointer;
   }
 
   .hamburguer {
@@ -55,7 +56,6 @@ export const StyledNavbar = styled.nav`
             visibility: hidden;
             transition: all 0.25s ease-in-out;
           }
-          /* :focus::before */
           &:hover::before,
           &.active::before {
             visibility: visible;
@@ -64,9 +64,6 @@ export const StyledNavbar = styled.nav`
           &.active::before {
             background-color: #ff00ff;
           }
-          /* &:focus::before { */
-            /* background-color: #ff00ff; */
-          /* } */
           &:focus-visible {
             outline: 0;
           }

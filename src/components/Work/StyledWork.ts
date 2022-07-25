@@ -11,7 +11,7 @@ export const StyledWork = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     > * {
-        flex: 0 1 400px;
+      flex: 0 1 400px;
     }
     gap: 2.5rem;
   }

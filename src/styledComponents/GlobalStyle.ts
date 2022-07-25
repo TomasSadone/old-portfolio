@@ -1,4 +1,4 @@
-import  { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 *,
@@ -19,12 +19,20 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
-  scroll-padding-top: 20px
+  scroll-padding-top: 20px;
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+
+  }
 }
 
 @media (max-width: 1280px) {
   html {
-    /* font-size: 14px; */
+    font-size: 14px;
   }
 }
 
@@ -42,4 +50,4 @@ html {
   Tambien los section, con sus media
 */
 
-`
+`;
