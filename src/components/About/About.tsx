@@ -17,7 +17,7 @@ export const About = () => {
       <StyledAbout>
         <h1>About</h1>
         <div className="flex">
-          <div>
+          <div id="portrait">
             <img alt="Portrait of me" src={image} />
           </div>
           <div className="max-width">

@@ -14,6 +14,9 @@ export const StyledAbout = styled.div`
     flex-direction: column;
     gap: 3rem;
   }
+  #portrait{
+    visibility: hidden;
+  }
 
   img {
     aspect-ratio: 1;
