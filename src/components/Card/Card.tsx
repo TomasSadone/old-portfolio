@@ -13,27 +13,28 @@ type Props = {
   pageLink?: Links;
 };
 
-export const Card: React.FC<Props> = (props) => {
+export const Card: React.FC<Props> = props => {
   const { image, text, title, oneButton, codeLink, pageLink } = props;
+  console.log(oneButton, title);
   return (
     <StyledCard>
-      <img className="image " src={image} alt="website mockup" />
-      <div className="">
+      <img className='image ' src={image} alt='website mockup' />
+      <div className=''>
         <h3>{title}</h3>
-        <div className="text ">{text}</div>
-        <div className="buttons">
+        <div className='text '>{text}</div>
+        <div className='buttons'>
           <StyledButton
             onClick={() => openLinks(codeLink)}
-            className="styled-button"
-            background="202020"
+            className='styled-button'
+            background='202020'
           >
             CODE
           </StyledButton>
           {!oneButton && pageLink ? (
             <StyledButton
               onClick={() => openLinks(pageLink)}
-              className="styled-button"
-              background="202020"
+              className='styled-button'
+              background='202020'
             >
               PAGE
             </StyledButton>

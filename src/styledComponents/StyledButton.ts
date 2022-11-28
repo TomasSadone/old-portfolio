@@ -8,14 +8,15 @@ interface Props {
 export const StyledButton = styled.button<Props>`
   ${(props) => {
     const { background, padding } = props;
-    const hashBackground = `#${background}`
-    const background2 = `${background}2`
+    const hashBackground = `#${background}`;
+    const background2 = `${background}2`;
     return `
   color: white;
   font-size: 1rem;
   padding: ${padding || "0.625em 2.5em"};
   border-radius: 0.625rem;
   border: 2.5px solid transparent;
+  cursor: pointer;
 
   @property --${background} {
     syntax: "<color>";

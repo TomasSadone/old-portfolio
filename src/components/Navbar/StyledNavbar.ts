@@ -64,9 +64,9 @@ export const StyledNavbar = styled.nav`
           &.active::before {
             background-color: #ff00ff;
           }
-          &:focus-visible {
+          /* &:focus-visible {
             outline: 0;
-          }
+          } */
         }
       }
     }
@@ -91,9 +91,9 @@ export const StyledNavbar = styled.nav`
 
       transform: translateX(100%);
       transition: transform 350ms ease-out;
-    }
-    .true {
-      transform: translateX(0);
+      &.true {
+        transform: translateX(0);
+      }
     }
 
     .hamburguer {
