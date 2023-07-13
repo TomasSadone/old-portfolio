@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.js": "/myPortfolio/static/js/main.39dbd470.js",
+    "main.js": "/myPortfolio/static/js/main.bc455deb.js",
+    "static/media/restore-mockup.png": "/myPortfolio/static/media/restore-mockup.9bd872de824a7c43c370.png",
     "static/media/mockupSunnyside.png": "/myPortfolio/static/media/mockupSunnyside.62a5cbecf2b2c05012aa.png",
     "static/media/mockupScandiweb.png": "/myPortfolio/static/media/mockupScandiweb.be6212b5aa5acc069747.png",
-    "static/media/mockupNextEcommerce.png": "/myPortfolio/static/media/mockupNextEcommerce.5fcaaa35a9d1687c63fa.png",
-    "static/media/mockupInstagram.png": "/myPortfolio/static/media/mockupInstagram.4df6550dd074ba92e31a.png",
-    "static/media/mockupBsale.png": "/myPortfolio/static/media/mockupBsale.87011fc4e8d069a63986.png",
+    "static/media/doggypedia-mockup.png": "/myPortfolio/static/media/doggypedia-mockup.d996c3c102154acfe5c3.png",
     "static/media/mockupPortfolio.png": "/myPortfolio/static/media/mockupPortfolio.dd7a8faab78d0dc4a692.png",
     "static/media/about-picture.png": "/myPortfolio/static/media/about-picture.d833e606c50e55f9403c.png",
     "static/media/cuate.svg": "/myPortfolio/static/media/cuate.f974f6c9ae5d5f7c94ec62a572d7c2c5.svg",
@@ -19,9 +18,9 @@
     "index.html": "/myPortfolio/index.html",
     "static/media/css.svg": "/myPortfolio/static/media/css.7f034a9b2696bad6e2054090a115b971.svg",
     "static/media/html.svg": "/myPortfolio/static/media/html.348242cb1d3f6d2f1cbdb1783de7aea6.svg",
-    "main.39dbd470.js.map": "/myPortfolio/static/js/main.39dbd470.js.map"
+    "main.bc455deb.js.map": "/myPortfolio/static/js/main.bc455deb.js.map"
   },
   "entrypoints": [
-    "static/js/main.39dbd470.js"
+    "static/js/main.bc455deb.js"
   ]
 }
