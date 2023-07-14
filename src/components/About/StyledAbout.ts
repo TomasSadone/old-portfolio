@@ -1,6 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledAbout = styled.div`
+  display: grid;
+  gap: 1rem;
   p {
     font-size: 16px;
   }
@@ -14,7 +16,7 @@ export const StyledAbout = styled.div`
     flex-direction: column;
     gap: 3rem;
   }
-  #portrait{
+  #portrait {
     visibility: hidden;
   }
 
@@ -26,8 +28,6 @@ export const StyledAbout = styled.div`
   .grid {
     display: grid;
     gap: 3rem;
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) */
   }
 
   .logo-text {
@@ -39,6 +39,12 @@ export const StyledAbout = styled.div`
   .logos {
     aspect-ratio: 1;
     width: 3rem;
+  }
+
+  @media (min-width: 30em) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (min-width: 47em) {

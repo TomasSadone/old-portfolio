@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledMainPage = styled.div`
   /* min-height: calc(100vh - 87px); */
@@ -17,7 +17,7 @@ export const StyledMainPage = styled.div`
   }
 
   #tomas-sadone {
-    color: #0000ff;
+    color: #ff00ff;
     font-size: 4.68rem;
     font-weight: 600;
 

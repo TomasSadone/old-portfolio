@@ -6,10 +6,16 @@ export type Links =
   | 'https://github.com/TomasSadone/instagram-card'
   | 'https://afraid-aftermath.surge.sh/'
   | 'https://drive.google.com/file/d/1CV4FGHaMSA7WGRpjbcmCtuAlwFzwbbBy/view?usp=sharing'
-  | 'mailto:tomisadone27@gmail.com'
+  | 'mailto:tomassadonedev@gmail.com'
   | 'https://github.com/TomasSadone/fake-store-api'
   | 'https://fake-store-theta.vercel.app/'
   | 'https://github.com/TomasSadone/sunnyside-landing'
   | 'https://tomassadone.github.io/sunnyside-landing/'
   | 'https://github.com/TomasSadone/bsale-frontend'
-  | 'https://bsalefront.surge.sh/';
+  | 'https://bsalefront.surge.sh/'
+  | 'https://scandiweb-junior-react-e-commerce.vercel.app/all'
+  | 'https://github.com/TomasSadone/PI-Dogs'
+  | 'https://tomassadone.github.io/PI-Dogs'
+  | 'https://github.com/TomasSadone/Restore'
+  | 'https://tomassadone.github.io/PI-Dogs/'
+  | 'https://re-store-ts.vercel.app/home';
