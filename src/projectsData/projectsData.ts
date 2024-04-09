@@ -26,7 +26,7 @@ const projectsData: projectData[] = [
   },
   {
     title: 'eCommerce App',
-    text: `Dynamic website based on a GraphQL API.
+    text: `Please patience on first load, free hosting. Dynamic website based on a GraphQL API.
     It was built using React class components and Redux, SASS, React Router.`,
     codeLink: 'https://github.com/TomasSadone/scandiweb-junior-react-eCommerce',
     image: scandiwebMockup,
@@ -44,7 +44,7 @@ const projectsData: projectData[] = [
     codeLink: 'https://github.com/TomasSadone/PI-Dogs',
     image: doggypediaMockup,
     pageLink: 'https://tomassadone.github.io/PI-Dogs/',
-    text: 'Designed and developed a dogs app that includes search, combined filters, ordering, dogs posting, pagination',
+    text: 'Please patience on first load, free hosting. Designed and developed a dogs app that includes search, combined filters, ordering, dogs posting, pagination',
   },
   {
     title: 'Restore',

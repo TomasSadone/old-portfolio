@@ -30,7 +30,10 @@ export const About = () => {
         <h1>About</h1>
         <div className='flex'>
           <div id='portrait'>
-            <img alt='Portrait of me' src={image} />
+            <img
+              alt='Portrait of me'
+              src={image}
+            />
           </div>
           <div className='max-width'>
             <p>
@@ -41,13 +44,13 @@ export const About = () => {
               I studied marketing at college for one and a half years, and
               I&apos;ve got backgrounds in marketing and online sales, which
               helped me learn new tools and efficiently apply new acquired
-              knowledge. I&apos;m now studying web development since september
-              2021, and I can say I&apos;ve found my passion.
+              knowledge. I&apos;m now working as a fullstack web developer since
+              january 2022
             </p>
             <p>
               I&apos;m aiming to become a better devoleper each day, constantly
-              improving my code, my knowledge, and my skills. I hope to be in
-              charge of a developers team one day.
+              improving my code, my knowledge, and my skills. My aim is to build
+              the best user expiriences.
             </p>
             <p>Contact me if you like what I can offer.</p>
           </div>
@@ -57,19 +60,35 @@ export const About = () => {
           <h3>Programming languages:</h3>
           <div className='grid '>
             <div className='logo-text grid-item'>
-              <img className='logos' src={HTMLLogo} alt='HTML logo' />
+              <img
+                className='logos'
+                src={HTMLLogo}
+                alt='HTML logo'
+              />
               <span>HTML</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={CSSLogo} alt='CSS logo' />
+              <img
+                className='logos'
+                src={CSSLogo}
+                alt='CSS logo'
+              />
               <span>CSS</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={JSLogo} alt='Javascript logo' />
+              <img
+                className='logos'
+                src={JSLogo}
+                alt='Javascript logo'
+              />
               <span>JavaScript</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={TSLogo} alt='Typescript logo' />
+              <img
+                className='logos'
+                src={TSLogo}
+                alt='Typescript logo'
+              />
               <span>TypeScript</span>
             </div>
           </div>
@@ -78,27 +97,51 @@ export const About = () => {
           <h3>Frameworks:</h3>
           <div className='grid '>
             <div className='logo-text grid-item'>
-              <img className='logos' src={reactLogo} alt='React logo' />
+              <img
+                className='logos'
+                src={reactLogo}
+                alt='React logo'
+              />
               <span>React</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={nextLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={nextLogo}
+                alt='Redux logo'
+              />
               <span>Next.js</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={reduxLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={reduxLogo}
+                alt='Redux logo'
+              />
               <span>Redux</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={nodeLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={nodeLogo}
+                alt='Redux logo'
+              />
               <span>Node.js</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={expressLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={expressLogo}
+                alt='Redux logo'
+              />
               <span>Express</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={sassLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={sassLogo}
+                alt='Redux logo'
+              />
               <span>Sass</span>
             </div>
           </div>
@@ -107,19 +150,35 @@ export const About = () => {
           <h3>Databases:</h3>
           <div className='grid'>
             <div className='logo-text grid-item'>
-              <img className='logos' src={postgresqlLogo} alt='React logo' />
+              <img
+                className='logos'
+                src={postgresqlLogo}
+                alt='React logo'
+              />
               <span>PostgreSQL</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={mySQLLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={mySQLLogo}
+                alt='Redux logo'
+              />
               <span>MySQL</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={mongoDBLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={mongoDBLogo}
+                alt='Redux logo'
+              />
               <span>Mongo DB</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={sequelizeLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={sequelizeLogo}
+                alt='Redux logo'
+              />
               <span>Sequelize</span>
             </div>
           </div>
@@ -128,19 +187,35 @@ export const About = () => {
           <h3>Others:</h3>
           <div className='grid'>
             <div className='logo-text grid-item'>
-              <img className='logos' src={githubLogo} alt='React logo' />
+              <img
+                className='logos'
+                src={githubLogo}
+                alt='React logo'
+              />
               <span>Github</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={scrumLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={scrumLogo}
+                alt='Redux logo'
+              />
               <span>Scrum</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={slackLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={slackLogo}
+                alt='Redux logo'
+              />
               <span>Slack</span>
             </div>
             <div className='logo-text grid-item'>
-              <img className='logos' src={trelloLogo} alt='Redux logo' />
+              <img
+                className='logos'
+                src={trelloLogo}
+                alt='Redux logo'
+              />
               <span>Trello</span>
             </div>
           </div>
