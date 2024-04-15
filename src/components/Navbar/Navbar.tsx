@@ -2,7 +2,6 @@ import React, { RefObject, useEffect, useRef, useState } from 'react';
 import { openLinks } from '../../helpers/openLink';
 import { HamburguerMenu } from '../../styledComponents/HamburguerMenu';
 import { StyledButton } from '../../styledComponents/StyledButton';
-import { Links } from '../../types/Links';
 import { StyledNavbar } from './StyledNavbar';
 
 type Props = {
@@ -10,7 +9,7 @@ type Props = {
 };
 
 export const Navbar: React.FC<Props> = ({ sections }) => {
-    const resumeLink: Links =
+    const resumeLink: string =
         'https://drive.google.com/file/d/1CV4FGHaMSA7WGRpjbcmCtuAlwFzwbbBy/view?usp=sharing';
     const [openMobileNav, setOpenMobileNav] = useState(false);
     const [activeSection, setActiveSection] = useState<string | undefined>('');
