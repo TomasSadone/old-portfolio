@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/myPortfolio/static/js/main.bc020d90.js",
+    "main.js": "/myPortfolio/static/js/main.e21db0d6.js",
     "static/media/restore-mockup.png": "/myPortfolio/static/media/restore-mockup.8344417e8783dbd0ccd9.png",
-    "static/media/doggypedia-mockup.png": "/myPortfolio/static/media/doggypedia-mockup.2be27ec87d74c0cf3ff5.png",
     "static/media/mockupSunnyside.png": "/myPortfolio/static/media/mockupSunnyside.62a5cbecf2b2c05012aa.png",
     "static/media/mockupScandiweb.png": "/myPortfolio/static/media/mockupScandiweb.be6212b5aa5acc069747.png",
     "static/media/mockupPortfolio.png": "/myPortfolio/static/media/mockupPortfolio.dd7a8faab78d0dc4a692.png",
+    "static/media/dev-art-mockup.png": "/myPortfolio/static/media/dev-art-mockup.7e88eaef41c15e9d7d3c.png",
     "static/media/about-picture.png": "/myPortfolio/static/media/about-picture.d833e606c50e55f9403c.png",
     "static/media/cuate.svg": "/myPortfolio/static/media/cuate.f974f6c9ae5d5f7c94ec62a572d7c2c5.svg",
     "static/media/postgresql.svg": "/myPortfolio/static/media/postgresql.5aa1b5d6ae02bb47e617d192bb90ea1a.svg",
@@ -30,9 +30,9 @@
     "index.html": "/myPortfolio/index.html",
     "static/media/css.svg": "/myPortfolio/static/media/css.7f034a9b2696bad6e2054090a115b971.svg",
     "static/media/html.svg": "/myPortfolio/static/media/html.348242cb1d3f6d2f1cbdb1783de7aea6.svg",
-    "main.bc020d90.js.map": "/myPortfolio/static/js/main.bc020d90.js.map"
+    "main.e21db0d6.js.map": "/myPortfolio/static/js/main.e21db0d6.js.map"
   },
   "entrypoints": [
-    "static/js/main.bc020d90.js"
+    "static/js/main.e21db0d6.js"
   ]
 }
